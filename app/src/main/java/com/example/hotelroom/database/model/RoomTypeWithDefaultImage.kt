@@ -1,4 +1,6 @@
 package com.example.hotelroom.database.model
 
-class RoomTypeWithDefaultImage {
-}
+data class RoomTypeWithDefaultImage(
+    val roomType: RoomType,
+    val defaultImage: RoomPhoto?
+)

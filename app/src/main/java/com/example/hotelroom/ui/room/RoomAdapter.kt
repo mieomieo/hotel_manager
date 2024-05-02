@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.room
+package com.example.hotelroom.ui.room
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.RoomWithRoomType
-import com.example.hotelmanagement.databinding.ItemRoomBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.RoomWithRoomType
+import com.example.hotelroom.databinding.ItemRoomBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
 
 class RoomAdapter(
     private val listener: IOnItemClickListener

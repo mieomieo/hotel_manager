@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.roomtype
+package com.example.hotelroom.ui.roomtype
 
 import android.app.Dialog
 import android.os.Bundle
@@ -14,14 +14,14 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.RoomFacility
-import com.example.hotelmanagement.data.model.RoomPhoto
-import com.example.hotelmanagement.data.model.RoomType
-import com.example.hotelmanagement.databinding.FragmentAddUpdateRoomTypeBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
-import com.example.hotelmanagement.ui.facility.FacilityAdapter
-import com.example.hotelmanagement.ui.facility.FacilityViewModel
+import com.example.hotelroom.ui.facility.FacilityViewModel
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.RoomFacility
+import com.example.hotelroom.database.model.RoomPhoto
+import com.example.hotelroom.database.model.RoomType
+import com.example.hotelroom.databinding.FragmentAddUpdateRoomTypeBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
+import com.example.hotelroom.ui.facility.FacilityAdapter
 import com.google.android.material.textfield.TextInputEditText
 import dagger.hilt.android.AndroidEntryPoint
 

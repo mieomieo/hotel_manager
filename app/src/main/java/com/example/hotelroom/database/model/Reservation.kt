@@ -18,9 +18,9 @@ import androidx.room.PrimaryKey
     )]
 )
 data class Reservation(
-    @PrimaryKey(autoGenerate = true)
-    val reservationId: Int,
+    @PrimaryKey(autoGenerate = true) val reservationId: Int,
     val clientId: Int,
+    val roomId: Int,
     val checkInDate: Long,
     val checkOutDate: Long,
     val additionalExpenses: Double

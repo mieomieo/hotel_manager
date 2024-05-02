@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.roomtype
+package com.example.hotelroom.ui.roomtype
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.RoomPhoto
-import com.example.hotelmanagement.databinding.ItemRoomTypeDetailPhotosBinding
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.RoomPhoto
+import com.example.hotelroom.databinding.ItemRoomTypeDetailPhotosBinding
 
 class RoomTypeDetailPhotosAdapter : RecyclerView.Adapter<RoomTypeDetailPhotosAdapter.ViewHolder>() {
 

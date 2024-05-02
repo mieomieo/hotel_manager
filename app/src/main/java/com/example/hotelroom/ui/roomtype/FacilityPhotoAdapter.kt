@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.roomtype
+package com.example.hotelroom.ui.roomtype
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.RoomFacility
-import com.example.hotelmanagement.data.model.RoomPhoto
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.RoomFacility
+import com.example.hotelroom.database.model.RoomPhoto
 
 class FacilityPhotoAdapter<T>(
     private val onRemove: (Int) -> Unit

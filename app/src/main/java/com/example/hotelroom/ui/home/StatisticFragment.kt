@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.home
+package com.example.hotelroom.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hotelmanagement.databinding.FragmentStatisticBinding
-import com.example.hotelmanagement.ui.reservation.ReservationViewModel
+import com.example.hotelroom.databinding.FragmentStatisticBinding
+import com.example.hotelroom.ui.reservation.ReservationViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

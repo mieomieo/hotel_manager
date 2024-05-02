@@ -1,14 +1,14 @@
-package com.example.hotelmanagement.ui.home
+package com.example.hotelroom.ui.home
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.YearlyRevenue
-import com.example.hotelmanagement.databinding.ItemYearlyRevenueBinding
-import com.example.hotelmanagement.utils.toVietnameseCurrency
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.YearlyRevenue
+import com.example.hotelroom.databinding.ItemYearlyRevenueBinding
+import com.example.hotelroom.utils.toVietnameseCurrency
 
 class YearlyRevenueAdapter : RecyclerView.Adapter<YearlyRevenueAdapter.ViewHolder>() {
 

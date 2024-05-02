@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.reservation
+package com.example.hotelroom.ui.reservation
 
 import android.app.Dialog
 import android.os.Bundle
@@ -14,16 +14,16 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.Client
-import com.example.hotelmanagement.data.model.Reservation
-import com.example.hotelmanagement.data.model.ReservationWithClientRoomAndRoomType
-import com.example.hotelmanagement.data.model.RoomWithRoomType
-import com.example.hotelmanagement.databinding.FragmentReservationBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
-import com.example.hotelmanagement.ui.client.ClientViewModel
-import com.example.hotelmanagement.ui.room.RoomViewModel
-import com.example.hotelmanagement.utils.convertTimestampToDateTime
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.Client
+import com.example.hotelroom.database.model.Reservation
+import com.example.hotelroom.database.model.ReservationWithClientRoomAndRoomType
+import com.example.hotelroom.database.model.RoomWithRoomType
+import com.example.hotelroom.databinding.FragmentReservationBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
+import com.example.hotelroom.ui.client.ClientViewModel
+import com.example.hotelroom.ui.room.RoomViewModel
+import com.example.hotelroom.utils.convertTimestampToDateTime
 import com.google.android.material.datepicker.MaterialDatePicker
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.timepicker.MaterialTimePicker

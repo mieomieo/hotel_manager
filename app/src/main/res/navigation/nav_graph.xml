@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.hotelroom.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_facilityFragment"
+            app:destination="@id/facilityFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_clientFragment"
+            app:destination="@id/clientFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_roomTypeFragment"
+            app:destination="@id/roomTypeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_roomFragment"
+            app:destination="@id/roomFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_reservationFragment"
+            app:destination="@id/reservationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="com.example.hotelroom.ui.home.StatisticFragment"
+        android:label="fragment_statistic"
+        tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/facilityFragment"
+        android:name="com.example.hotelroom.ui.facility.FacilityFragment"
+        android:label="fragment_facility"
+        tools:layout="@layout/fragment_facility" />
+    <fragment
+        android:id="@+id/clientFragment"
+        android:name="com.example.hotelroom.ui.client.ClientFragment"
+        android:label="fragment_client"
+        tools:layout="@layout/fragment_client" />
+    <fragment
+        android:id="@+id/roomTypeFragment"
+        android:name="com.example.hotelroom.ui.roomtype.RoomTypeFragment"
+        android:label="fragment_room_type"
+        tools:layout="@layout/fragment_room_type" >
+        <action
+            android:id="@+id/action_roomTypeFragment_to_addUpdateRoomTypeFragment"
+            app:destination="@id/addUpdateRoomTypeFragment" />
+        <action
+            android:id="@+id/action_roomTypeFragment_to_roomTypeDetailFragment"
+            app:destination="@id/roomTypeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUpdateRoomTypeFragment"
+        android:name="com.example.hotelroom.ui.roomtype.AddUpdateRoomTypeFragment"
+        android:label="fragment_add_update_room_type"
+        tools:layout="@layout/fragment_add_update_room_type" />
+    <fragment
+        android:id="@+id/roomTypeDetailFragment"
+        android:name="com.example.hotelroom.ui.roomtype.RoomTypeDetailFragment"
+        android:label="fragment_room_type_detail"
+        tools:layout="@layout/fragment_room_type_detail" >
+        <argument
+            android:name="roomTypeId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.example.hotelroom.ui.room.RoomFragment"
+        android:label="fragment_room"
+        tools:layout="@layout/fragment_room" />
+    <fragment
+        android:id="@+id/reservationFragment"
+        android:name="com.example.hotelroom.ui.reservation.ReservationFragment"
+        android:label="fragment_reservation"
+        tools:layout="@layout/fragment_reservation" />
+</navigation>

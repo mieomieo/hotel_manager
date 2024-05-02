@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.facility
+package com.example.hotelroom.ui.facility
 
 import android.app.Dialog
 import android.os.Bundle
@@ -13,10 +13,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.RoomFacility
-import com.example.hotelmanagement.databinding.FragmentFacilityBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.RoomFacility
+import com.example.hotelroom.databinding.FragmentFacilityBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
 import com.google.android.material.textfield.TextInputEditText
 import dagger.hilt.android.AndroidEntryPoint
 

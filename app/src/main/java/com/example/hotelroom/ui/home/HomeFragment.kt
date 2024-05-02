@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.home
+package com.example.hotelroom.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.hotelmanagement.databinding.FragmentHomeBinding
+import com.example.hotelroom.databinding.FragmentHomeBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

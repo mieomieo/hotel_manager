@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="@string/choose_an_item_to_add"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_close"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_list_facility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_title"
+        android:focusable="false" />
+</RelativeLayout>

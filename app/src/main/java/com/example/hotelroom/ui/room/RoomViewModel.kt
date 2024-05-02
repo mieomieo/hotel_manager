@@ -1,12 +1,12 @@
-package com.example.hotelmanagement.ui.room
+package com.example.hotelroom.ui.room
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.hotelmanagement.data.model.Room
-import com.example.hotelmanagement.data.model.RoomWithRoomType
-import com.example.hotelmanagement.data.repository.HotelRepository
+import com.example.hotelroom.database.model.Room
+import com.example.hotelroom.database.model.RoomWithRoomType
+import com.example.hotelroom.database.repository.HotelRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

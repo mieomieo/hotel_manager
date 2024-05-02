@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.roomtype
+package com.example.hotelroom.ui.roomtype
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,9 +9,9 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.databinding.FragmentRoomTypeDetailBinding
-import com.example.hotelmanagement.utils.toVietnameseCurrency
+import com.example.hotelroom.R
+import com.example.hotelroom.databinding.FragmentRoomTypeDetailBinding
+import com.example.hotelroom.utils.toVietnameseCurrency
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

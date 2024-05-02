@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.reservation
+package com.example.hotelroom.ui.reservation
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -8,15 +8,15 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat.getString
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hotelmanagement.R
-import com.example.hotelmanagement.data.model.ReservationWithClientRoomAndRoomType
-import com.example.hotelmanagement.databinding.ItemReservationBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
-import com.example.hotelmanagement.utils.convertTimestampToDateTime
-import com.example.hotelmanagement.utils.convertTimestampToDay
-import com.example.hotelmanagement.utils.convertTimestampToMonth
-import com.example.hotelmanagement.utils.convertTimestampToYear
-import com.example.hotelmanagement.utils.toVietnameseCurrency
+import com.example.hotelroom.R
+import com.example.hotelroom.database.model.ReservationWithClientRoomAndRoomType
+import com.example.hotelroom.databinding.ItemReservationBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
+import com.example.hotelroom.utils.convertTimestampToDateTime
+import com.example.hotelroom.utils.convertTimestampToDay
+import com.example.hotelroom.utils.convertTimestampToMonth
+import com.example.hotelroom.utils.convertTimestampToYear
+import com.example.hotelroom.utils.toVietnameseCurrency
 
 class ReservationAdapter(
     private val listener: IOnItemClickListener

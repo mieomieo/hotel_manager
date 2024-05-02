@@ -1,4 +1,4 @@
-package com.example.hotelmanagement.ui.roomtype
+package com.example.hotelroom.ui.roomtype
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.hotelmanagement.data.model.RoomTypeWithDefaultImage
-import com.example.hotelmanagement.databinding.FragmentRoomTypeBinding
-import com.example.hotelmanagement.interfaces.IOnItemClickListener
+import com.example.hotelroom.database.model.RoomTypeWithDefaultImage
+import com.example.hotelroom.databinding.FragmentRoomTypeBinding
+import com.example.hotelroom.interfaces.IOnItemClickListener
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
